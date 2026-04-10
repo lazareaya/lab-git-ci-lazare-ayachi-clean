@@ -1,0 +1,19 @@
+name: CI Pipeline
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Run a first message
+        run: echo "Mon premier pipeline fonctionne !"
+
+      - name: Run a second message
+        run: echo "Le build CI est lance."
