@@ -1,4 +1,4 @@
 Enter your details below:
 
-* first_name:
-* last_name:
+* first_name: Lazare
+* last_name: Ayachi
